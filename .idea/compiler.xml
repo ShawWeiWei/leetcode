@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="TwoSum" />
       </profile>
+      <profile default="false" name="Annotation profile for AddTwoNumbers" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="AddTwoNumbers" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AddTwoNumbers" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="solution" target="1.8" />
       <module name="TwoSum" target="1.8" />
